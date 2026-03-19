@@ -36,9 +36,9 @@ module.exports = {
 
       // 3. Build leaderboard
       let leaderboard = 
-`╔═════════════════╗
+`╔════════════════╗
     💰 𝗧𝗢𝗣 𝟭𝟬 💰 
-╚═════════════════╝
+╚════════════════╝
 
 `;
 
@@ -77,7 +77,7 @@ module.exports = {
 ╔═══ 𝗬𝗢𝗨𝗥 𝗥𝗔𝗡𝗞 ═══╗
  📍 #${userIndex + 1}
  💵 $${me.money.toLocaleString()}
-╚═════════════════╝`;
+╚════════════════╝`;
       }
 
       // 5. Edit loading message into final result
