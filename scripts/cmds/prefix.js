@@ -5,7 +5,7 @@ module.exports = {
   config: {
     name: "prefix",
     version: "1.5",
-    author: "NTkhang || Kari Gori By Xos Eren",
+    author: "CharlesMK",
     countDown: 5,
     role: 0,
     description: "Change the bot prefix in your chat box or globally (admin only)",
@@ -110,7 +110,7 @@ module.exports = {
         + `║ 💬 Chatbox : ${threadPrefix}\n`
         + `║ ➤ ${threadPrefix}help to see all available cmds \n`
         + "╚═══════════════╝",
-        attachment: await utils.getStreamFromURL("https://files.catbox.moe/cgczez.jpg")
+        attachment: await utils.getStreamFromURL("https://files.catbox.moe/1untv5.jpg")
       });
     }
   }

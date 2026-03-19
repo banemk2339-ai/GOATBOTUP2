@@ -21,7 +21,7 @@ module.exports = {
                 const emojiMap = {
                         ai: "🤖", "ai-image": "🎨", group: "👥", system: "⚙️",
                         fun: "🎮", owner: "👑", config: "🔧", economy: "💰",
-                        media: "📹", "18+": "🔞", tools: "🛠️", utility: "⚡",
+                        media: "📹", "18+": " 🔞", tools: "🛠️", utility: "⚡",
                         info: "ℹ️", image: "🖼️", game: "🎯", admin: "🛡️",
                         rank: "📊", boxchat: "💬", others: "📦"
                 };
@@ -49,7 +49,7 @@ module.exports = {
                         const cmd =
                                 allCommands.get(query) ||
                                 [...allCommands.values()].find((c) => (c.config.aliases || []).includes(query));
-                        
+
                         if (!cmd) {
                                 return message.reply(
                                         `❌ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗡𝗢𝗧 𝗙𝗢𝗨𝗡𝗗\n` +
@@ -82,7 +82,7 @@ module.exports = {
                                         : guide?.en?.replace(/{pn}/g, prefix) || `${prefix}${name}`;
 
                         const requiredRole = cmd.config.role !== undefined ? cmd.config.role : 0;
-                        
+
                         // Role names mapping
                         const roleNames = {
                                 0: "𝖴𝗌𝖾𝗋",
@@ -112,19 +112,19 @@ module.exports = {
                         cmds.sort().map((cmd) => `   ● ${cmd}`).join('\n');
 
                 const totalCommands = [...allCommands.values()].length;
-                
-                let msg = `╔═════════════════╗\n`;
-                msg += `║              𝗠𝗞-𝗕𝗢𝗧               ║\n`;
-                msg += `╚═════════════════╝\n\n`;
+
+                let msg = `╔════════════════╗\n`;
+                msg += `║             𝗠𝗞-𝗕𝗢𝗧             ║\n`;
+                msg += `╚════════════════╝\n\n`;
                 msg += `📊 𝗧𝗼𝘁𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: ${totalCommands}\n`;
                 msg += `⚡ 𝗣𝗿𝗲𝗳𝗶𝘅: ${prefix}\n`;
                 msg += `━━━━━━━━━━━━━━━━━━\n\n`;
 
                 const sortedCategories = Object.keys(categories).sort();
-                
+
                 for (const cat of sortedCategories) {
                         const emoji = emojiMap[cat] || "📦";
-                        
+
                         msg += `${emoji} 𝗖𝗔𝗧𝗘𝗚𝗢𝗥𝗬: ${cat.toUpperCase()}\n`;
                         msg += `━━━━━━━━━━━━━━━━━━\n`;
                         msg += `${formatCommands(categories[cat])}\n\n`;
