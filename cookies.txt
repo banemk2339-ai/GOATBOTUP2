@@ -41,7 +41,7 @@
     "value": "v1%3B694x360x3",
     "domain": ".facebook.com",
     "path": "/",
-    "expires": 1779707641,
+    "expires": 1779709337,
     "httpOnly": false,
     "secure": true,
     "sameSite": "Lax"
@@ -51,7 +51,7 @@
     "value": "61585105709390%3AF1PctaSdry%2C61579115638015%3Ao2UcklRQXy",
     "domain": ".facebook.com",
     "path": "/",
-    "expires": 1809083639.203839,
+    "expires": 1809085333.167337,
     "httpOnly": true,
     "secure": true,
     "sameSite": "Lax"
@@ -62,24 +62,6 @@
     "domain": ".facebook.com",
     "path": "/",
     "expires": 1774801614.609505,
-    "httpOnly": false,
-    "secure": true
-  },
-  {
-    "name": "m_pixel_ratio",
-    "value": "3",
-    "domain": ".facebook.com",
-    "path": "/",
-    "expires": -1,
-    "httpOnly": false,
-    "secure": true
-  },
-  {
-    "name": "wd",
-    "value": "360x780",
-    "domain": ".facebook.com",
-    "path": "/",
-    "expires": -1,
     "httpOnly": false,
     "secure": true
   },
@@ -103,29 +85,29 @@
   },
   {
     "name": "fr",
-    "value": "0ez7ZFzMlvZZULKtw.AWeS-mLyym5SAxoEakgad_tD6GlVqBTHEoy-wmDwT1XNNNj6F64.Bptque..AAA.0.0.BpxRUP.AWe3Io09hYNqmw0XqON22Navm2M",
+    "value": "0ez7ZFzMlvZZULKtw.AWfn8npXfYn9gT_0cTFe9bvPtP7JTqtghidkUjZJ4j5aPp0XrzI.Bptque..AAA.0.0.BpxRut.AWcnYcDJ1coG-ww_hwZThsvk6Oo",
     "domain": ".facebook.com",
     "path": "/",
-    "expires": 1782299639.203518,
+    "expires": 1782301333.165718,
     "httpOnly": true,
     "secure": true
   },
   {
     "name": "fbl_st",
-    "value": "101235965%3BT%3A29575394",
+    "value": "101216504%3BT%3A29575422",
     "domain": ".facebook.com",
     "path": "/",
-    "expires": 1806059641,
+    "expires": 1806061337,
     "httpOnly": false,
     "secure": true,
     "sameSite": "Strict"
   },
   {
     "name": "wl_cbv",
-    "value": "v2%3Bclient_version%3A3124%3Btimestamp%3A1774523663",
+    "value": "v2%3Bclient_version%3A3124%3Btimestamp%3A1774525357",
     "domain": ".facebook.com",
     "path": "/",
-    "expires": 1782299656,
+    "expires": 1782301336,
     "httpOnly": false,
     "secure": true
   }
